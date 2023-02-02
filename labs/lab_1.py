@@ -13,3 +13,37 @@ def mean(list):
     return sum(list)/len(list)
 
 print(mean(list))
+
+# Python For Loops Cheat Sheet
+
+# For loop - string
+for i in "Color":
+    print(i)
+
+# For loop - Dictionary
+
+car = {
+    "brand": "Toyota",
+    "model": "Camry",
+    "year": 2020
+}
+for i in car:
+    print(car[i]) # logic?
+
+# For tuple loop - Tuple
+RYB_color = ("Red", "Yellow", "Blue")
+for i in RYB_color:
+    print(i)
+
+# The break statement
+for i in RYB_color:
+    if(i == "Yellow"):
+        break
+    print(i)
+
+# The continue statement
+for i in RYB_color:
+    if(i == "Yellow"):
+        continue
+    print(i) # stops iteration of the loop, continue with next
+
