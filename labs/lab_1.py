@@ -47,3 +47,10 @@ for i in RYB_color:
         continue
     print(i) # stops iteration of the loop, continue with next
 
+# the range() function
+for i in range(10):
+    print(i) # returns a sequence of numbers, starting from 0 by default
+
+for i in range(2,5):
+    print(i)
+
