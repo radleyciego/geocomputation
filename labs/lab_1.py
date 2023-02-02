@@ -14,14 +14,11 @@ def mean(list):
 
 print(mean(list))
 
-# Python For Loops Cheat Sheet
-
 # For loop - string
 for i in "Color":
     print(i)
 
 # For loop - Dictionary
-
 car = {
     "brand": "Toyota",
     "model": "Camry",
@@ -53,4 +50,13 @@ for i in range(10):
 
 for i in range(2,5):
     print(i)
+
+for i in range(2,10,2):
+    print(i)
+
+# Else in for loops
+for i in range(3):
+    print(i)
+else:
+    print("finally finished")
 
