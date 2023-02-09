@@ -3,6 +3,7 @@
 
 # Task 1
 import random
+import numpy as np
 random.seed(100)
 list = []
 for i in range(0,10): # length of list
@@ -13,6 +14,9 @@ def mean(list):
     return sum(list)/len(list)
 
 print(mean(list))
+
+var_res = sum((xi - m) ** 2 for xi in list) / len(list)
+# Cheat Sheet Practice
 
 # For loop - string
 for i in "Color":
