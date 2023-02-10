@@ -1,21 +1,30 @@
 # Radley Ciego
 # Lab 1
 
+# %%
 # Task 1
 import random
-import numpy as np
 random.seed(100)
 list = []
 for i in range(0,10): # length of list
     list.append(random.randint(0,250)) 
 print(list)
 
+# %%
 def mean(list):
     return sum(list)/len(list)
 
 print(mean(list))
+ 
+ # %%
+def variance(list):
+    n = len(list)
+    mean = sum(list) / n
+    deviations = [(x - mean(list)) ** 2 for x in list]
+    variance = sum(deviations) / n
+    return variance
 
-var_res = sum((xi - m) ** 2 for xi in list) / len(list)
+# %%
 # Cheat Sheet Practice
 
 # For loop - string
@@ -64,3 +73,5 @@ for i in range(3):
 else:
     print("finally finished")
 
+
+# %%
