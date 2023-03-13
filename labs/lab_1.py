@@ -24,7 +24,7 @@ def variance(list):
     variance = sum(deviations) / n
     return variance
 
-# %%
+# %% in
 # Cheat Sheet Practice
 
 # For loop - string
