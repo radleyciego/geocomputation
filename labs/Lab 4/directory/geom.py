@@ -21,6 +21,6 @@ class Triangle(Geom):
         self.b = b
         self.c = c
         super().__init__()
-
-def area(self):
-    return (self.a + self.b + self.c)** 2
+        
+    def area(self):
+        return (self.a + self.b + self.c)** 2
