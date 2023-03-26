@@ -12,9 +12,6 @@ def __init__(self):
 def print_name(self):
     print('My name is ',self.name, 'and my color is ',self.color)
 
-def area(self):
-    return None
-
 def makeString(self):
     return f"Name: {self.name}, Color: {self.color}, Area: {self.area()}"
 
@@ -24,3 +21,6 @@ class Triangle(Geom):
         self.b = b
         self.c = c
         super().__init__()
+
+def area(self):
+    return (self.a + self.b + self.c)** 2
