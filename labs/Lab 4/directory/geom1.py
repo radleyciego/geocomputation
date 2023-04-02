@@ -29,11 +29,10 @@ class Square(Geom):
   def area(self):
      return self.side **2
 
-class Triangle(Geom):
-    def __init__(self, a, b, c):
-        self.a = a
+class Tri(Geom):
+    def __init__(self, b, h):
         self.b = b
-        self.c = c
+        self.h = h
         super().__init__()
     def area(self):
-        return (self.a + self.b + self.c)** 2
+        return (self.b * self.h)*0.5
