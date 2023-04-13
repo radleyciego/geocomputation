@@ -5,3 +5,4 @@
  <br> [Lab 3: Functions & Modules](/labs/lab_3.ipynb) </br>
  <br> [Lab 4: Objects & Debugging](/labs/Lab%204/lab_4.ipynb) </br>
  <br> [Lab 5: Data Visualization & Charting](/labs/lab_5.ipynb) </br>
+ <br> [Lab 6: Geometry & Spatial Data](/labs/lab_6.ipynb) </br>
